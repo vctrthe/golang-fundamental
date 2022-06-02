@@ -1,10 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"golang-fundamental/calculation"
+)
 
 func main() {
 	fmt.Println("Hello, World!")
-	sentence := TestAja()
 
-	fmt.Println(sentence)
+	result := calculation.Add(9, 9)
+
+	fmt.Println(result)
 }
